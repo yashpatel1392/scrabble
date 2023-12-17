@@ -1,0 +1,108 @@
+/* 
+ *  Name: Yash Patel
+ *  Email: Yash_Patel5@student.uml.edu
+ *  File: style.css
+ */
+
+body{
+    min-width: 600px;
+    max-width: 1600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(227, 213, 191);
+    font-family: 'Lucida Sans';
+}
+
+h1{
+    color: black;
+    padding: 20px;
+    font-size: 42px;
+    text-align: center;
+    border: 3px dotted black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#scrabble_board{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.b_tile{
+    border: 2px solid black;
+    width: 78px;
+    height: 78px;
+    padding: 2px;
+}
+
+#tiles{
+    background-image: url("../img/tile_holder.png");
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-size: auto;
+}
+
+#scores{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span{
+    color: rgb(237, 46, 46);
+}
+
+#error{
+    color: rgb(237, 46, 46);
+    font-weight: bold;
+    text-align: center;
+}
+
+#c_score {
+    color: rgb(22, 88, 232);
+}
+
+#buttons{
+    text-align: center;
+}
+
+#next, #restart{
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    background-color: rgb(213, 200, 183);
+    font-size: 14px;
+    border-radius: 10px;   
+}
+
+#next{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.tile{
+    width: 78px;
+    height: 78px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#i_heading{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#instructions{
+    text-align: center;
+    color: rgb(37, 41, 44);
+    font-weight: bold;
+}

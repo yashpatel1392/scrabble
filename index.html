@@ -1,0 +1,51 @@
+<!-- 
+    Name: Yash Patel
+    Email: Yash_Patel5@student.uml.edu
+    File: index.html
+ -->
+ 
+<html>
+    <head>
+        <title>Scrabble</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    </head>
+    <body>
+        <h1>Scrabble</h1> 
+
+        <div id="instructions">
+            <p id="i_heading">Game Information</p>
+            <p>Except for the first letter, all other letters should be placed directly next to another letter.</p>
+            <p>Letter Tiles can be dragged and dropped to both the scrabble board and the tiles rack.</p>
+            <p>Click on the Next Button for playing the next word. </p>
+            <p>Click on the Restart Button for restarting the game. </p>
+        </div><br>
+
+        <div id="error"></div><br>
+        <div id="scores"></div><br>
+
+        <div id="scrabble_board">
+            <img class="b_tile" src="img/b_empty.png" id="t1" alt="t1">
+            <img class="b_tile" src="img/b_empty.png" id="t2" alt="t2">
+            <img class="b_tile" src="img/b_double_word.png" id="t3" alt="t3">
+            <img class="b_tile" src="img/b_empty.png" id="t4" alt="t4">
+            <img class="b_tile" src="img/b_double_letter.png" id="t5" alt="t5">
+            <img class="b_tile" src="img/b_empty.png" id="t6" alt="t6">
+            <img class="b_tile" src="img/b_double_letter.png" id="t7" alt="t7">
+            <img class="b_tile" src="img/b_empty.png" id="t8" alt="t8">
+            <img class="b_tile" src="img/b_empty.png" id="t9" alt="t9">
+        </div><br><br><br> 
+        
+        <div id="tiles"></div><br><br><br>
+
+        <div id="buttons">
+            <button id="next">Next</button>
+            <button id="restart">Restart</button>
+        </div>
+
+        <script src="js/scrabble.js"></script>
+    
+    </body>
+</html>
